@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html>
 <head>
     <title>Best Cars 2026</title>
@@ -15,7 +16,6 @@
             margin: auto;
         }
 
-        /* Navigation */
         nav {
             display: flex;
             justify-content: space-between;
@@ -31,10 +31,9 @@
         }
 
         nav a:hover {
-            background: #ff4d4d;
+            background: #e60000;
         }
 
-        /* Search Box */
         .search-box {
             text-align: center;
             margin: 20px 0;
@@ -46,7 +45,6 @@
             font-size: 16px;
         }
 
-        /* Heading Section */
         .heading {
             text-align: center;
             margin: 30px 0;
@@ -62,11 +60,11 @@
             font-size: 18px;
         }
 
-        /* Images Section */
         .images {
             display: flex;
             justify-content: space-between;
             margin: 30px 0;
+            flex-wrap: wrap;
         }
 
         .images img {
@@ -74,19 +72,19 @@
             border-radius: 8px;
         }
 
-        /* Videos Section */
         .videos {
             display: flex;
             justify-content: space-between;
             margin: 30px 0;
+            flex-wrap: wrap;
         }
 
-        .videos video {
+        .videos iframe {
             width: 23%;
+            height: 200px;
             border-radius: 8px;
         }
 
-        /* Tables */
         .tables {
             display: flex;
             justify-content: space-between;
@@ -136,39 +134,27 @@
     <div class="heading">
         <h1>Best Performance Cars 2026</h1>
         <p>
-            Discover the most powerful, stylish and high-performance cars of 2026.
-            From luxury sports cars to affordable performance machines,
-            explore speed, design and innovation all in one place.
+            Explore the fastest and most luxurious cars of 2026.
+            Experience speed, power, innovation and world-class design.
         </p>
     </div>
 
-    <!-- Images -->
+    <!-- Car Images -->
     <div class="images">
-        <img src="https://via.placeholder.com/150" alt="Car1">
-        <img src="https://via.placeholder.com/150" alt="Car2">
-        <img src="https://via.placeholder.com/150" alt="Car3">
-        <img src="https://via.placeholder.com/150" alt="Car4">
-        <img src="https://via.placeholder.com/150" alt="Car5">
-        <img src="https://via.placeholder.com/150" alt="Car6">
+        <img src="https://images.unsplash.com/photo-1549924231-f129b911e442" alt="Ferrari">
+        <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c" alt="Lamborghini">
+        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a" alt="BMW">
+        <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8" alt="Audi">
+        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d" alt="Mercedes">
+        <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d" alt="Porsche">
     </div>
 
-    <!-- Videos -->
+    <!-- Car Videos (YouTube Embedded) -->
     <div class="videos">
-        <video controls>
-            <source src="" type="video/mp4">
-        </video>
-
-        <video controls>
-            <source src="" type="video/mp4">
-        </video>
-
-        <video controls>
-            <source src="" type="video/mp4">
-        </video>
-
-        <video controls>
-            <source src="" type="video/mp4">
-        </video>
+        <iframe src="https://www.youtube.com/embed/5xj0f9QvXG8" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/3HnbpS8wN8U" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/6nKc2gL8z9U" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/f2YfGxL9vH8" allowfullscreen></iframe>
     </div>
 
     <!-- Tables -->
@@ -177,18 +163,18 @@
         <table>
             <tr>
                 <th>Car</th>
-                <th>Speed</th>
+                <th>Top Speed</th>
                 <th>Price</th>
             </tr>
             <tr>
-                <td>Ferrari</td>
+                <td>Ferrari SF90</td>
                 <td>340 km/h</td>
-                <td>$300,000</td>
+                <td>$520,000</td>
             </tr>
             <tr>
-                <td>Lamborghini</td>
+                <td>Lamborghini Aventador</td>
                 <td>350 km/h</td>
-                <td>$400,000</td>
+                <td>$500,000</td>
             </tr>
         </table>
 
@@ -196,16 +182,16 @@
             <tr>
                 <th>Car</th>
                 <th>Engine</th>
-                <th>Fuel Type</th>
+                <th>Fuel</th>
             </tr>
             <tr>
                 <td>BMW M4</td>
-                <td>3.0L Turbo</td>
+                <td>3.0L Twin Turbo</td>
                 <td>Petrol</td>
             </tr>
             <tr>
                 <td>Tesla Model S</td>
-                <td>Electric</td>
+                <td>Electric Motor</td>
                 <td>Electric</td>
             </tr>
         </table>
@@ -216,3 +202,4 @@
 
 </body>
 </html>
+      
