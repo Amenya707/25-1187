@@ -1,205 +1,159 @@
-
-  <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Best Cars 2026</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Recipes 2026</title>
 
-        .container {
-            width: 90%;
-            margin: auto;
-        }
+<style>
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  background:#f4f4f4;
+}
 
-        nav {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px 0;
-        }
+nav{
+  display:flex;
+  justify-content:space-around;
+  padding:15px;
+  background:#222;
+}
 
-        nav a {
-            text-decoration: none;
-            background: #333;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-        }
+nav a{
+  color:white;
+  text-decoration:none;
+  padding:8px 18px;
+  border:1px solid white;
+  border-radius:6px;
+}
 
-        nav a:hover {
-            background: #e60000;
-        }
+.search{
+  text-align:center;
+  padding:20px;
+}
+.search input{
+  width:60%;
+  padding:10px;
+}
 
-        .search-box {
-            text-align: center;
-            margin: 20px 0;
-        }
+.container{
+  width:90%;
+  margin:auto;
+}
 
-        .search-box input {
-            width: 60%;
-            padding: 10px;
-            font-size: 16px;
-        }
+.paragraph{
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  margin:20px 0;
+}
 
-        .heading {
-            text-align: center;
-            margin: 30px 0;
-        }
+/* FOOD IMAGES */
+.images{
+  display:grid;
+  grid-template-columns: repeat(6,1fr);
+  gap:10px;
+}
+.images img{
+  width:100%;
+  height:120px;
+  object-fit:cover;
+  border-radius:8px;
+}
 
-        .heading h1 {
-            font-size: 36px;
-        }
+/* FOOD VIDEOS */
+.videos{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:10px;
+  margin-top:15px;
+}
+.videos iframe{
+  width:100%;
+  height:180px;
+  border-radius:10px;
+}
 
-        .heading p {
-            width: 70%;
-            margin: auto;
-            font-size: 18px;
-        }
-
-        .images {
-            display: flex;
-            justify-content: space-between;
-            margin: 30px 0;
-            flex-wrap: wrap;
-        }
-
-        .images img {
-            width: 15%;
-            border-radius: 8px;
-        }
-
-        .videos {
-            display: flex;
-            justify-content: space-between;
-            margin: 30px 0;
-            flex-wrap: wrap;
-        }
-
-        .videos iframe {
-            width: 23%;
-            height: 200px;
-            border-radius: 8px;
-        }
-
-        .tables {
-            display: flex;
-            justify-content: space-between;
-            margin: 40px 0;
-        }
-
-        table {
-            width: 45%;
-            border-collapse: collapse;
-            background: white;
-        }
-
-        table, th, td {
-            border: 1px solid #333;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: center;
-        }
-
-        th {
-            background: #333;
-            color: white;
-        }
-    </style>
+/* TABLES */
+.tables{
+  display:flex;
+  gap:20px;
+  margin:20px 0;
+}
+table{
+  width:50%;
+  background:white;
+  border-collapse:collapse;
+}
+td,th{
+  border:1px solid black;
+  padding:10px;
+}
+</style>
 </head>
 
 <body>
 
+<!-- NAV -->
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Contacts</a>
+  <a href="#">About</a>
+  <a href="#">Testimonials</a>
+</nav>
+
+<!-- SEARCH -->
+<div class="search">
+  <input type="text" placeholder="Search box">
+</div>
+
 <div class="container">
 
-    <!-- Navigation -->
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Contacts</a>
-        <a href="#">About</a>
-        <a href="#">Testimonials</a>
-    </nav>
+<h1>Your Heading – Best Recipes 2026</h1>
 
-    <!-- Search Box -->
-    <div class="search-box">
-        <input type="text" placeholder="Search for cars...">
-    </div>
+<div class="paragraph">
+  <p>
+    Welcome to our food website! Here you can find amazing meals,
+    cooking ideas, and delicious recipes for everyone.
+  </p>
+</div>
 
-    <!-- Heading -->
-    <div class="heading">
-        <h1>Best Performance Cars 2026</h1>
-        <p>
-            Explore the fastest and most luxurious cars of 2026.
-            Experience speed, power, innovation and world-class design.
-        </p>
-    </div>
+<!-- FOOD IMAGES -->
+<div class="images">
+  <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="pizza">
+  <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="salad">
+  <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" alt="burger">
+  <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="pasta">
+  <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468" alt="dessert">
+  <img src="https://images.unsplash.com/photo-1512058564366-c9e3e0468e4b" alt="steak">
+</div>
 
-    <!-- Car Images -->
-    <div class="images">
-        <img src="https://images.unsplash.com/photo-1549924231-f129b911e442" alt="Ferrari">
-        <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c" alt="Lamborghini">
-        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a" alt="BMW">
-        <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8" alt="Audi">
-        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d" alt="Mercedes">
-        <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d" alt="Porsche">
-    </div>
+<!-- FOOD VIDEOS (YouTube embeds) -->
+<div class="videos">
+  <iframe src="https://www.youtube.com/embed/1-SJGQ2HLp8" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/dA8Smj5tZOQ" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/4aZr5hZXP_s" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/kRCH8kD1GD0" allowfullscreen></iframe>
+</div>
 
-    <!-- Car Videos (YouTube Embedded) -->
-    <div class="videos">
-        <iframe src="https://www.youtube.com/embed/5xj0f9QvXG8" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/3HnbpS8wN8U" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/6nKc2gL8z9U" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/f2YfGxL9vH8" allowfullscreen></iframe>
-    </div>
+<!-- TABLES -->
+<div class="tables">
+  <table>
+    <tr><th>Table 1</th></tr>
+    <tr><td>Pizza Recipe</td></tr>
+    <tr><td>Pasta Recipe</td></tr>
+  </table>
 
-    <!-- Tables -->
-    <div class="tables">
-
-        <table>
-            <tr>
-                <th>Car</th>
-                <th>Top Speed</th>
-                <th>Price</th>
-            </tr>
-            <tr>
-                <td>Ferrari SF90</td>
-                <td>340 km/h</td>
-                <td>$520,000</td>
-            </tr>
-            <tr>
-                <td>Lamborghini Aventador</td>
-                <td>350 km/h</td>
-                <td>$500,000</td>
-            </tr>
-        </table>
-
-        <table>
-            <tr>
-                <th>Car</th>
-                <th>Engine</th>
-                <th>Fuel</th>
-            </tr>
-            <tr>
-                <td>BMW M4</td>
-                <td>3.0L Twin Turbo</td>
-                <td>Petrol</td>
-            </tr>
-            <tr>
-                <td>Tesla Model S</td>
-                <td>Electric Motor</td>
-                <td>Electric</td>
-            </tr>
-        </table>
-
-    </div>
+  <table>
+    <tr><th>Table 2</th></tr>
+    <tr><td>Burger Recipe</td></tr>
+    <tr><td>Salad Recipe</td></tr>
+  </table>
+</div>
 
 </div>
 
 </body>
 </html>
-      
+
+  
